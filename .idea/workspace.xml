@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601f0ad1-14cb-4dfd-945f-02f3b59ee1e2" name="Changes" comment="feat: Estructura base del programa, declarando variables y arreglos de productos y precios.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="601f0ad1-14cb-4dfd-945f-02f3b59ee1e2" name="Changes" comment="feat: Estructura logica de menu, se crea el menu de la tienda utilizando el ciclo do-while y switch para los case">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,11 +59,20 @@
       <option name="project" value="LOCAL" />
       <updated>1754280017612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Estructura logica de menu, se crea el menu de la tienda utilizando el ciclo do-while y switch para los case">
+      <option name="closed" value="true" />
+      <created>1754280774706</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754280774706</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Estructura base del programa, declarando variables y arreglos de productos y precios." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Estructura base del programa, declarando variables y arreglos de productos y precios." />
+    <MESSAGE value="feat: Estructura logica de menu, se crea el menu de la tienda utilizando el ciclo do-while y switch para los case" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Estructura logica de menu, se crea el menu de la tienda utilizando el ciclo do-while y switch para los case" />
   </component>
 </project>

@@ -26,7 +26,7 @@ public class Main {
                 case 1:
                     System.out.println("--- Productos disponibles ---");
                     for (int i = 0; i < productos.length; i++) {
-                        System.out.println((i + 1) + ". " + productos[i] + " - $" + precios[i]);
+                        System.out.println((i + 1) + ". " + productos[i] + " - L" + precios[i]);
                     }
                     break;
                 case 2:
@@ -42,7 +42,30 @@ public class Main {
                         System.out.println("Selección inválida. Intente nuevamente.");
                     }
                     break;
+                case 3:
+                    // LÓGICA DE COMPRA Y TOTAL
+                    double total = 0.0;
+                    System.out.println("--- Carrito de compras ---");
+                    if (total_prod == 0) {
+                        System.out.println("Tu carrito está vacío.");
+                    } else {
+                        for (int i = 0; i < total_prod; i++) {
+                            int indice = carrito[i];
+                            System.out.println("- " + productos[indice] + " - $" + precios[indice]);
+                            total += precios[indice];
+                        }
+                        System.out.printf("Total a pagar: $%.2f\n", total);
+                    }
+                    break;
 
+                case 4:
+                    System.out.println("Gracias por visitar la tienda. ¡Hasta pronto!");
+                    break;
+
+                default:
+                    System.out.println("Opción inválida. Por favor, elija entre 1 y 4.");
 
             }
-        }}}
+        }while (opcion != 4); //salir del menu de la tienda basica.
+        lc.close();
+    }}
